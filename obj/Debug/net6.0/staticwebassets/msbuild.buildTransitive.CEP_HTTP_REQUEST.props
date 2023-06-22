@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CEP_HTTP_REQUEST.props" />
+</Project>

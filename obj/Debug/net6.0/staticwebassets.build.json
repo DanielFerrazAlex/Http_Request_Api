@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RELc2ce9+ob0F8/HD4dQrokdDoLfT08n0yekTGRwOmI=",
+  "Source": "CEP_HTTP_REQUEST",
+  "BasePath": "_content/CEP_HTTP_REQUEST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
