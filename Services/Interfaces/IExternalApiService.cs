@@ -6,5 +6,6 @@ namespace CEP_HTTP_REQUEST.Services.Interfaces
     public interface IExternalApiService
     {
         Task<ResponseHTTP<Entity>> GetResponse(string cep);
+        Task<ResponseHTTP<Entity>> IsertResponse(string cep);
     }
 }

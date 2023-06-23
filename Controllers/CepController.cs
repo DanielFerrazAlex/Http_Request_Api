@@ -29,5 +29,14 @@ namespace CEP_HTTP_REQUEST.Controllers
                 return StatusCode((int)result.Status, result.Error);
             }
         }
+        ///<summary>
+        ///https://localhost:7025/api/v1/cep/inserir/{cep}
+        ///</summary>
+        [HttpPost("inserir/{cep}")]
+        public async Task<IActionResult> InsertCep([FromRoute] string cep)
+        {
+            var result = await _service.InsertCepData(cep);
+            return Ok(result);
+        }
     }
 }

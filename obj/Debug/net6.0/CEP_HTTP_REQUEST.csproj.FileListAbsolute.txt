@@ -56,3 +56,8 @@ C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\obj\Debug\net6.0\refin
 C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\obj\Debug\net6.0\CEP_HTTP_REQUEST.pdb
 C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\obj\Debug\net6.0\CEP_HTTP_REQUEST.genruntimeconfig.cache
 C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\obj\Debug\net6.0\ref\CEP_HTTP_REQUEST.dll
+C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\bin\Debug\net6.0\Dapper.dll
+C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\125430\Desktop\Ambiente Virtual\CEP_HTTP_REQUEST\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
