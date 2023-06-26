@@ -1,4 +1,5 @@
-﻿using CEP_HTTP_REQUEST.Data;
+﻿using CEP_HTTP_REQUEST.Commands;
+using CEP_HTTP_REQUEST.Data;
 using CEP_HTTP_REQUEST.DTO_s;
 using CEP_HTTP_REQUEST.Models;
 using CEP_HTTP_REQUEST.Services.Interfaces;
@@ -52,9 +53,7 @@ namespace CEP_HTTP_REQUEST.Scripts
                     using (var conn = _context.CreateConnection())
                     {
                         conn.Open();
-                        var query = @"INSERT INTO bankcep (cep, estado, cidade, bairro, rua, servico) 
-                            VALUES (@cep, @estado, @cidade, @bairro, @rua, @servico)";
-                        await conn.ExecuteAsync(query, data);
+                        await conn.ExecuteAsync(SequelCommands.InsertData, data);
                     }
                 }
             }
