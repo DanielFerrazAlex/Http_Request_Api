@@ -8,9 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSingleton<Context>();
-builder.Services.AddAutoMapper(typeof(ResponseEntity));
 builder.Services.AddSingleton<ICepService, CepService>();
 builder.Services.AddSingleton<IExternalApiService, ExternalAPI>();
+builder.Services.AddAutoMapper(typeof(ResponseEntity));
 
 var app = builder.Build();
 

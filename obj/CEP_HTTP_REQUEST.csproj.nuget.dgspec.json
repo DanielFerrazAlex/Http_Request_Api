@@ -53,17 +53,9 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
-            "Microsoft.AspNet.WebApi.Client": {
-              "target": "Package",
-              "version": "[5.2.9, )"
-            },
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.6, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
             }
           },
           "imports": [

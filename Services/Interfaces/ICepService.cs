@@ -5,6 +5,6 @@ namespace CEP_HTTP_REQUEST.Services.Interfaces
     public interface ICepService
     {
         Task<ResponseHTTP<ResponseEntity>> GetCep(string cep);
-        Task<ResponseHTTP<ResponseEntity>> InsertCepData(string cep);
+        Task<bool> InsertCepData(string cep);
     }
 }
